@@ -30,11 +30,4 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
-
-  def display_cart
-    if @@cart == []
-      resp.write "Your cart is empty."
-    end
-  end
-
 end
